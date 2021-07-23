@@ -28,6 +28,12 @@
 ![image](https://user-images.githubusercontent.com/48324949/126805569-813c48a1-5d09-40ae-ac52-ffb4763f2fe1.png)
 
 --> Open postman to fire the request with json data.
+--> Enter Json data in body.
+
+[{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }, { "Gender": "Male", "HeightCm": 161, "WeightKg":
+85 }, { "Gender": "Male", "HeightCm": 180, "WeightKg": 77 }, { "Gender": "Female", "HeightCm": 166,
+"WeightKg": 62}, {"Gender": "Female", "HeightCm": 150, "WeightKg": 70}, {"Gender": "Female", 
+"HeightCm": 167, "WeightKg": 82}]
 
 ![image](https://user-images.githubusercontent.com/48324949/126805890-170c429a-22ac-4bcf-bce9-3c64c76e076d.png)
 

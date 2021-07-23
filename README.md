@@ -35,3 +35,11 @@
 
 ![image](https://user-images.githubusercontent.com/48324949/126806089-8f71c52e-1314-4156-98b5-769a1820e4a9.png)
 
+# How to run test cases.
+
+--> In terminal, Navigate to folder.
+--> run npm test on terminal to executetest cases.
+
+![image](https://user-images.githubusercontent.com/48324949/126806835-6082e0e7-8c08-4505-b640-b82f028d999e.png)
+
+

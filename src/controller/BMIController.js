@@ -9,6 +9,8 @@ const calculateBMI = (data) => {
     height = el.HeightCm / 100;
     weight = el.WeightKg;
     BMI = weight / height;
+
+    //Assigning BMI data to existing data.
     el.BMI = parseFloat(BMI.toFixed(1));
   });
 
@@ -44,6 +46,7 @@ const CategoryAndHealthRisk = (data) => {
 
 //For Counting Overweight person
 const countOverweight = (data) => {
+  // checking BMICategory of each record for finding overweight person.
   data.forEach((el) => {
     if (el.BMICategory === "Overweight") {
       count++;

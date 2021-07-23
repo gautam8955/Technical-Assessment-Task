@@ -20,3 +20,18 @@
 --> Postman for firing request.
 --> VS code Editor.
 
+# How to use
+--> First, Clone the repository from master branch.
+--> In terminal, Navigate to the folder and run npm install. This will install node modules according to package.json file.
+--> Than in terminal, run npm start to start the server on port 3000.
+
+![image](https://user-images.githubusercontent.com/48324949/126805569-813c48a1-5d09-40ae-ac52-ffb4763f2fe1.png)
+
+--> Open postman to fire the request with json data.
+
+![image](https://user-images.githubusercontent.com/48324949/126805890-170c429a-22ac-4bcf-bce9-3c64c76e076d.png)
+
+--> After clicking on the send button. you will get your response data.
+
+![image](https://user-images.githubusercontent.com/48324949/126806089-8f71c52e-1314-4156-98b5-769a1820e4a9.png)
+

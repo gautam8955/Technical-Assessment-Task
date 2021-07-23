@@ -12,3 +12,11 @@
 --> Than it will find the BMI Category and Health Risk and add them to same record.
 --> AT last it will count the No. of Persons fall in the overweight category.
 
+# Tools and Technologies used
+--> Node.js
+--> Express.js
+--> JavaScript
+--> Mocha and chai for writing test cases.
+--> Postman for firing request.
+--> VS code Editor.
+

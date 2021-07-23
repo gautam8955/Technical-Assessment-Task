@@ -6,6 +6,7 @@ chai.use(chaiHttp);
 const bmi = require("../../controller/BMIController");
 const { expect } = require("chai");
 
+// Test Cases of BMI Calculator.
 describe("Test of Controller functions of BMI Calculator", function () {
   let req = {},
     data;
@@ -20,6 +21,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
     ],
   };
 
+  // Test for calculateBMI function.
   describe("Test for calculateBMI function", function () {
     data = req.body;
     it("Testing for calculation of BMI", async () => {
@@ -29,6 +31,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
     });
   });
 
+  // Test case for CategoryAndHealthRisk Function.
   describe("Test for CategoryAndHealthRisk Function", function () {
     it("Testing for finding Category and Health Risk", async () => {
       const response = await bmi.CategoryAndHealthRisk(data);
@@ -37,6 +40,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
     });
   });
 
+  // Test case for counting overweight persons.
   describe("Test for counting overweight persons", function () {
     it("Testing for finding the total no. of overweight persons", async () => {
       const response = await bmi.countOverweight(data);

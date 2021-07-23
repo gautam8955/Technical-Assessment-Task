@@ -26,7 +26,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
     data = req.body;
     it("Testing for calculation of BMI", async () => {
       const response = await bmi.calculateBMI(data);
-      console.log("response", response);
+      // console.log("response", response);
       expect(response).to.be.a("array");
     });
   });
@@ -35,7 +35,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
   describe("Test for CategoryAndHealthRisk Function", function () {
     it("Testing for finding Category and Health Risk", async () => {
       const response = await bmi.CategoryAndHealthRisk(data);
-      console.log("response2:", response);
+      // console.log("response2:", response);
       expect(response).to.be.a("array");
     });
   });
@@ -44,7 +44,7 @@ describe("Test of Controller functions of BMI Calculator", function () {
   describe("Test for counting overweight persons", function () {
     it("Testing for finding the total no. of overweight persons", async () => {
       const response = await bmi.countOverweight(data);
-      console.log("Total no. of overweight persons: ", response);
+      // console.log("Total no. of overweight persons: ", response);
       expect(response).to.be.a("number");
     });
   });
